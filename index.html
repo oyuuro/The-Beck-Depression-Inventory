@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>The Beck Depression Inventory</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Noto+Serif+JP:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600&family=Merriweather+Sans:wght@300;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="header-content">
+      <div class="header-text">
+        <h1>Beck’s Depression Inventory</h1>
+        <p>A 21-item self-reporting questionnaire for evaluating the severity of depression</p>
+        <div class="start-container"><a class="start-button" href="Quiz/index.html">Begin the quiz</a></div>
+      </div>
+      <div class="header-image"><img class="image" src="images/sleep.svg" alt="">
+        <div>
+        </div>
+  </header>
+
+  <main>
+
+    <section class="about">
+      <h1>About Beck’s Depression Inventory</h1>
+      <p>The Beck Depression Inventory (BDI) is a 21-item self-reporting questionnaire for evaluating the severity of depression. Its result is an indication, not a diagnosis. If the result suggests depressive symptoms, you should speak to a mental
+        health professional. <br><br><b>Depression is a serious illness that requires treatment. If left untreated, it can worsen and even endanger your life.</b></p>
+    </section>
+
+    <section class="get-help">
+      <h1>Get Help</h1>
+      <p>If you are worried about the results you got from the Beck Depression Inventory and you do not know what to do, just complete this form to reach for help and somebody will get back to you with available help options.</p>
+
+      <div class="form-container" id="getHelp">
+        <form class="form">
+          <div class="form-group">
+            <h1 class="ask">Ask for help</h1>
+            <ul class="form-list">
+              <li class="form-item name">
+                <p class="form-text">Your name</p>
+                <input type="text" class="inputs input-name">
+              </li>
+              <li class="form-item score">
+                <p class="form-text">Your score</p>
+                <input type="number" class="inputs input-score">
+              </li>
+              <li class="form-item email">
+                <p class="form-text">Your email</p>
+                <input type="email" class="inputs input-email">
+              </li>
+              <li class="form-item message">
+                <p class="form-text">Message</p>
+                <input type="text" class="inputs input-message">
+              </li>
+              <li class="form-item submit" id="submitButton">
+                <div class="submit-container"><input type="submit" value="Submit" class="submit-button"></div>
+              </li>
+            </ul>
+          </div>
+        </form>
+      </div>
+
+      <div class="sent-container sent-hidden" id="sentConfirm">
+        <div class="confirmation">
+          <h1 class="confirmation-heading">All done!</h1>
+          <p class="confirmation-text">Your form has been sent and we will get in contact with you soon :)</p>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <script type="text/javascript" src="code.js"></script>
+</body>
+
+</html>
